@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Besley:ital@1&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Serif:wght@300&family=Staatliches&display=swap');
+body {
+    background-image: url(https://www.alura.com.br/artigos/assets/uploads/2018/06/abstract-access-close-up-1089438.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+div {
+    display: inline-block;
+}
+
+img {
+    justify-content: center;
+}
+
+a {
+    color: rgb(9, 255, 0);
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+}
+
+.centralizado {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: white;
+}

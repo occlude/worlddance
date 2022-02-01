@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Besley:ital@1&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Serif:wght@300&family=Staatliches&display=swap');
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(gifs_imgs/login/fundologin4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    min-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+main.conteudo {
+    background: white;
+    min-width: 500px;
+    min-height: 300px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-right: 500px;
+}
+
+main h2 {
+    font-weight: 600px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+main h2::after {
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+}
+
+.footer .social-field {
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.digite {
+    position: relative;
+}
+
+form .digite:first-child {
+    margin-bottom: 20px;
+}
+
+.digite input:focus~.linha::after {
+    transform: scaleX(1);
+}
+
+.digite input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input[type="submit"] {
+    margin-top: 32px;
+    padding: 7px;
+    width: 100%;
+    background: linear-gradient(to left, #a0b1da, #0a001b);
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #afb9cf, #f3f3f3);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.footer .social-field a i {
+    margin: 0 8px;
+    width: 15px;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.footer span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+    text-align: center;
+}
+
+.digite input {
+    outline: none;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.digite .linha::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #ffffff, #000000);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.digite .linha::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+}

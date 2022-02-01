@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Besley:ital@1&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Serif:wght@300&family=Staatliches&display=swap');
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(gifs_imgs/pasodoble/fundopaso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Besley', serif;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+ul {
+    font-family: 'Besley', serif;
+}
+
+p {
+    display: flex;
+    font-family: 'Acme', sans-serif
+}
+
+p,
+a,
+li {
+    font-size: 30px;
+}
+
+h2,
+h3 {
+    font-size: 50px;
+}
+
+img {
+    border-radius: 25px;
+    float: left;
+    padding: 15px;
+}
+
+#diferente {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 45%;
+    padding-bottom: 20px;
+    font-family: 'Besley', serif;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a::selection {
+    color: #960000;
+}
+
+p::selection,
+img::selection,
+h1::selection,
+h2::selection,
+li::selection {
+    color: #960000;
+}
+
+#leia {
+    display: block;
+    align-items: flex-end;
+    clear: left;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    display: flex;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.linkcab ul li {
+    font-family: 'Staatliches', cursive;
+}
+
+.navegacao ul header {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.linkcab a {
+    color: #960000;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+.linkcab a:hover {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.linkcab a:active {
+    color: white;
+}
+
+ul li {
+    font-family: 'Staatliches', cursive;
+}

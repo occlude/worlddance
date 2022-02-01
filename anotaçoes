@@ -1,0 +1,83 @@
+isa:
+fiz o conteudo base da página pasodoble e do css 
+no css apenas copiei o css do samba e do tango 
+apaguei o float de todos os css´s das danças (acho que o coutinho não vai gostar de q a gnt use float)
+dei uma identada nas páginas (confere se ta identado pra vc) 
+-> as imagens não estão aparecendo pra mim, nem o vídeo da moça dançando, nem os gifs nem nenhuma imagem
+conferir como que escreve pasodoble (ou paso doble) cada lugar da página ta escrito de uma forma diferente
+a minha sugestão é colocar uma página de créditos ao inves das outras danças
+coloquei div no html do tango para a imagem ficar do lado do texto, usei uma div com a class "imagens_paragrafos",
+coloquei no css so um display flex nessa class, precisa fazer isso nas outras danças e tals
+login barra branca
+loja inteira
+creditos inteiro
+rodapé -- estilo, fonte , hover a afins
+menu -- fonte , hover a afins
+
+links das pesquisas:
+https://dancadesalaofloripa.wordpress.com/2010/03/29/pasodoble-o-que-e/
+https://www.paixaopeladanca.com.br/passo-doble/
+https://www.todamateria.com.br/samba/
+https://www.todamateria.com.br/tango/
+
+enzo:
+fazer a logo ✓
+colocar o video da moça dançando de fundo ✓
+listar as fontes usadas no site ✓
+fiz fonte do menu junto com as cores ✓
+fonte do samba e pasodoble ✓
+imagens e videos do pasodoble ✓
+fazer os sites das danças com o background image (desistimos)
+cada imagem/gif de uma dança na direita e esquerda✓
+Trocar os fundos para que fiquem bons ✓
+fazer o texto enzo ✓ 
+e inserir as fotos ✓
+
+
+O QUE ESTA FALTANDO?
+
+6.Uma das páginas deve conter informações sobre o site, contendo:
+Informação sobre os autores do site (o grupo)
+Informação sobre colaboradores (se tiver, por exemplo, pessoas que ajudaram)
+Atribuição de créditos:
+Se estiver usando recursos de terceiros (e.g., vídeos, sons, imagens etc.), a página deve mostrar quem é o autor de cada um,
+possivelmente com o link apontando onde esse recurso foi encontrado
+(VULGO ULTIMA PAGINA)
+
+
+10.Ter uma dentre as seguintes 4 opções:
+Tabela com uma célula ocupando mais de uma coluna ou linha; ou
+Uma lista de definição (<dl>...</dl> - pesquisar); ou
+Código fonte dentro da página (<pre></pre> e <code></code> - pesquisar); ou
+Campos de entrada de dados (<input>s)
+(Tabela é o mais simples pra fazer)
+
+
+PONTO EXTRA:
+
+1.Da pra fazer um compreensive layout
+2.JavaScript (fueda)
+4.Easter eggs
+8.Fazer o site responsive (acho que nem da tempo mas a gente tenta)
+
+TOMAR CUIDADO:
+
+• Com indentação
+• Repetição desnecessaria do codigo css
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Molde da postagem 
+
+Grupo 07 - Compasso
+URL do site: https://usuario.github.io/compasso/
+Integrantes:
+Enzo Bambirra Pinto
+Isabela Ferreira 
+Luan Xavier
+Ana Flavia
+Fabiane 
+Itens opcionais implementados:
+(5-8%) Comprehensive layout (vide anexo 1 ao tópico) (DA PRA CRIAR)
+(3%) Exibição de um vídeo (usamos iframe para incluir vídeo do YouTube)
+(3-6%) Usar flexbox/grid (usamos grid para layout da página e flexbox para o menu principal)

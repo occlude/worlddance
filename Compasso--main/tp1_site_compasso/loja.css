@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Besley:ital@1&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Serif:wght@300&family=Staatliches&display=swap');
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(gifs_imgs/loja/fundoabs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
+}
+
+p {
+    font-family: 'Besley', serif;
+}
+
+div#produtos img {
+    margin: 0 auto;
+    width: 240px;
+    border: 3px solid #800909;
+    border-radius: 25px;
+}
+
+div#produtos img:hover {
+    border: 3px solid black;
+    opacity: 0.7;
+}
+
+p {
+    font-family: 'Besley', serif;
+}
+
+.comprar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Besley', serif;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.comprar a:hover {
+    background-color: #800909;
+    font-size: 25px;
+    transition: .5s;
+}
+
+a::selection,
+p::selection,
+img::selection,
+h1::selection,
+h2::selection,
+li::selection {
+    color: #960000;
+}
+
+img p {
+    margin: 0 auto;
+    width: 70%;
+    padding: 15px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.loja,
+p,
+div#produtos {
+    text-align: justify;
+}
+
+p {
+    font-family: 'Besley', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+div#produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#produtos article {
+    flex: 1;
+}
+
+.loja,
+.info,
+h2 {
+    width: 70%;
+    text-align: justify;
+}
+
+.comprar {
+    transition: .5s;
+}

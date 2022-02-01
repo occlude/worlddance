@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Besley:ital@1&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Serif:wght@300&family=Staatliches&display=swap%27');
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(gifs_imgs/tango/tango8k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+main h1 {
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+div .imagens_paragrafos {
+    display: flex;
+    align-items: flex-end;
+}
+
+main h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+main a {
+    text-decoration: none;
+    padding-left: 45%;
+    padding-bottom: 20px;
+    font-family: 'Besley', serif;
+    color: black;
+    font-size: 20px;
+}
+
+main a:hover {
+    opacity: 0.2;
+    color: white;
+}
+
+main a:visited {
+    color: black;
+}
+
+main ul {
+    font-family: 'Besley', serif;
+    list-style: none;
+}
+
+#origem {
+    padding-bottom: 5px;
+    padding-left: 700px;
+}
+
+#carac {
+    clear: left;
+}
+
+p {
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+
+main li {
+    font-size: 30px;
+}
+
+main a {
+    font-size: 30px;
+}
+
+a::selection,
+p::selection,
+img::selection,
+h1::selection,
+h2::selection,
+li::selection {
+    color: #960000;
+}
+
+#bar {
+    max-width: 500px;
+    max-height: 500px;
+    align-items: center;
+    float: left;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    border-radius: 30px;
+}
+
+#simpsons {
+    padding-top: 55px;
+    float: right;
+    border-radius: 30px;
+}
+
+#tangored {
+    max-width: 500px;
+    max-height: 500px;
+    align-items: center;
+    display: flex;
+    padding-top: 0px;
+    border-radius: 30px;
+}
+
+.direita {
+    float: right;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita,
+.esquerda {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#leia {
+    display: flex;
+    align-items: flex-end;
+    clear: right;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+
+#caracteristicas {
+    padding-left: 20px;
+}

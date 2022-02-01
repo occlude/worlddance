@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Wagon;
+    src: url(fonts/Wagon-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Wagon;
+    src: url(fonts/Wagon-ExtraLight.otf);
+    font-weight: lighter;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: Lato;
+    background-color: #FFFBED;
+    overflow-x: hidden;
+    color: #2D2E33;
+    line-height: 1.15;
+}
+
+#circulo {
+    width: 40em;
+    height: 40em;
+    border: 1px solid #2d2e33;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    z-index: -1;
+    background-image: linear-gradient(0deg, rgba(255, 244, 212, .75) , rgba(159, 125, 255, 0));
+}
+
+main {
+    overflow-x: hidden;
+}
+
+#circulo-wrap {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#landing-page {
+    height: 100%;
+    margin-top: 5em;
+}
+
+#landing-slogan-wrap {
+    position: relative;
+    text-align: center;
+    color: #2d2e33;
+    margin-top: 6%;
+}
+
+#landing-nome {
+    font-family: Wagon;
+    font-weight: Bold;
+    font-size: 5em;
+    margin: 0;
+}
+
+#landing-slogan {
+    font-family: Wagon;
+    font-weight: lighter;
+    font-size: 5em;
+    margin-top: 0;
+}
+
+#landing-img {
+    position: relative;
+    top: -60vh;
+    width: 70%;
+    z-index: -1;
+    left: 10%;
+}
+
+#landing-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circulo-fundo {
+    width: 500px;
+    height: 500px;
+    background-color: #FFF4D4;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    z-index: -2;
+    filter: blur(50px);
+    opacity: 50%;
+}
+
+#landing-2 {
+    overflow: hidden;
+    display: flex;
+    background-color: #D4DBFF;
+    position: relative;
+    top: -300px;
+}
+
+#div-img-landing {
+    width: 60%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#landing-text-2 {
+    font-family: 'Wagon';
+    font-weight: bold;
+    font-size: 3em;
+    padding: 30px;
+    width: 60%;
+}
+
+#div-img-landing img {
+    object-fit: cover;
+    position: relative;
+    bottom: 40%;
+    right: 30%;
+}
+
+.hidden {
+    display: none!important;
+}
+
+#sobre {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  bottom: 300px;
+}
+
+#fechar-modal-criadores {
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    z-index: 5;
+    font-size: 2em;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .7em;
+    border: none;
+    border-radius: 50%;
+    color: #d4dbff;
+    background-color: #2D2E33;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#fechar-modal-criadores:hover {
+    color: #2D2E33;
+    background-color:  #d4dbff;
+}
+
+@media (orientation: portrait){
+  #landing-nome,
+  #landing-slogan {
+    font-size: 2.5em!important;
+  }
+
+  #landing-img {
+    width: 200%;
+    top: -30vh;
+  }
+
+  #circulo-fundo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
